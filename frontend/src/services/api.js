@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://pokemon-management-app.onrender.com';
 
 // User API
 export const getUsers = () => axios.get(`${API_URL}/users`);
